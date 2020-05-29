@@ -1,0 +1,5 @@
+﻿cl : Command line warning D9002: ignoring unknown option '-Xclang'
+cl : Command line warning D9002: ignoring unknown option '-fopenmp'
+  Lab_OpenMP.cpp
+c1xx : warning C4199: two-phase name lookup is not supported for C++/CLI, C++/CX, or OpenMP; use /Zc:twoPhase-
+  Lab_OpenMP.vcxproj -> C:\Alex\C++\Lab_OpenMP\Debug\Lab_OpenMP.exe

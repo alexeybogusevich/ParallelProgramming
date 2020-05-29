@@ -1,0 +1,14 @@
+﻿  pch.cpp
+  Lab_MPI.cpp
+c:\alex\c++\lab_mpi\lab_mpi\lab_mpi.cpp(206): warning C4326: return type of 'main' should be 'int' instead of 'void'
+Lab_MPI.obj : error LNK2019: unresolved external symbol _MPI_Barrier referenced in function "void __cdecl TestDistribution(double *,double *,double *,int,int)" (?TestDistribution@@YAXPAN00HH@Z)
+Lab_MPI.obj : error LNK2019: unresolved external symbol _MPI_Bcast referenced in function "void __cdecl DataDistribution(double *,double *,double *,int,int)" (?DataDistribution@@YAXPAN00HH@Z)
+Lab_MPI.obj : error LNK2019: unresolved external symbol _MPI_Scatterv referenced in function "void __cdecl DataDistribution(double *,double *,double *,int,int)" (?DataDistribution@@YAXPAN00HH@Z)
+Lab_MPI.obj : error LNK2019: unresolved external symbol _MPI_Allgatherv referenced in function "void __cdecl ResultReplication(double *,double *,int,int)" (?ResultReplication@@YAXPAN0HH@Z)
+Lab_MPI.obj : error LNK2019: unresolved external symbol _MPI_Comm_size referenced in function _main
+Lab_MPI.obj : error LNK2019: unresolved external symbol _MPI_Comm_rank referenced in function _main
+Lab_MPI.obj : error LNK2019: unresolved external symbol _MPI_Wtime referenced in function _main
+Lab_MPI.obj : error LNK2019: unresolved external symbol _MPI_Init referenced in function _main
+Lab_MPI.obj : error LNK2019: unresolved external symbol _MPI_Finalize referenced in function _main
+C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.1.216\windows\mpi\intel64\lib\release\impi.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Alex\C++\Lab_MPI\Debug\Lab_MPI.exe : fatal error LNK1120: 9 unresolved externals
